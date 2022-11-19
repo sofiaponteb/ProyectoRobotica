@@ -42,11 +42,11 @@ Se realizó un modelo en inventor teniendo en cuenta el diámetro de la ventosa 
 
 ## Código en RAPID :computer:
 
-> MODULE Module1
+>        MODULE Module1
 >    
->    #DEFINICION DE LOS TARGETS
+>        #DEFINICION DE LOS TARGETS
 >    
->    PROC Pieza1()
+>        PROC Pieza1()
 >    
 >        MoveL RP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
 >        
