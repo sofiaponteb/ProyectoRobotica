@@ -42,6 +42,7 @@ Se realizó un modelo en inventor teniendo en cuenta el diámetro de la ventosa 
 
 ## Código en RAPID :computer:
 >MODULE Module1
+>
 >    CONST robtarget RP1_2:=[[-369.89,317.424,-104],[0,0,0,1],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
 >    CONST robtarget RP1:=[[-369.89,317.424,-4],[0,0,0,1],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
 >    CONST robtarget DP1_2:=[[-152.102,100.031,-105.74],[0.342020143,0,0,0.939692621],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
