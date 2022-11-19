@@ -48,8 +48,8 @@ Se realizó un modelo en inventor teniendo en cuenta el diámetro de la ventosa 
 >    
 >        PROC Pieza1()
 >    
->        MoveL RP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
->        MoveL RP1,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
+>           MoveL RP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
+>           MoveL RP1,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
 >        Chupar;        
 >        MoveL RP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
 >        MoveL DP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
@@ -70,9 +70,9 @@ Se realizó un modelo en inventor teniendo en cuenta el diámetro de la ventosa 
 >        Soltar;        
 >        MoveL DP2_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
 >                
->    ENDPROC
+>        ENDPROC
 >    
->    PROC Pieza3()
+>        PROC Pieza3()
 >    
 >        MoveL RP3_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
 >        MoveL RP3,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
