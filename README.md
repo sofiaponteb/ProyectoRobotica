@@ -42,97 +42,184 @@ Se realizó un modelo en inventor teniendo en cuenta el diámetro de la ventosa 
 
 ## Código en RAPID :computer:
 
->    MODULE Module1
+> MODULE Module1
 >    
 >    #DEFINICION DE LOS TARGETS
 >    
 >    PROC Pieza1()
+>    
 >        MoveL RP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL RP1,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Chupar;
+>        
 >        MoveL RP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP1,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Soltar;
+>        
 >        MoveL DP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >    ENDPROC
+>    
 >    PROC Pieza2()
+>    
 >        MoveL RP2_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL RP2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Chupar;
+>        
 >        MoveL RP2_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP2_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Soltar;
+>        
 >        MoveL DP2_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >    ENDPROC
+>    
 >    PROC Pieza3()
+>    
 >        MoveL RP3_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL RP3,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Chupar;
+>        
 >        MoveL RP3_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP3_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP3,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Soltar;
+>        
 >        MoveL DP3_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >    ENDPROC
+>    
 >    PROC Pieza4()
+>    
 >        MoveL RP4_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL RP4,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Chupar;
+>        
 >        MoveL RP4_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP4_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP4,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Soltar;
+>        
 >        MoveL DP4_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >    ENDPROC
+>    
 >    PROC Pieza5()
+>    
 >        MoveL RP5_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL RP5,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Chupar;
+>        
 >        MoveL RP5_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP5_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP5,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Soltar;
+>        
 >        MoveL DP5_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >    ENDPROC
+>    
 >    PROC Pieza6()
+>    
 >        MoveL RP6_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL RP6,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Chupar;
+>        
 >        MoveL RP6_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP6_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        MoveL DP6,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >        Soltar;
+>        
 >        MoveL DP6_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >    ENDPROC
+>    
 >    PROC main()
+>    
 >        Inicio;
+>        
 >        WaitDI DI_01,1;
+>        
 >        Pieza1;
+>        
 >        Pieza2;
+>        
 >        Pieza3;
+>        
 >        Pieza4;
+>        
 >        Pieza5;
+>        
 >        Pieza6;
+>        
 >        Inicio;
+>        
 >        SetDO DO_03,1;
+>        
 >    ENDPROC
+>    
 >    PROC Inicio()
+>    
 >        MoveAbsJ Home,v1000,z100,Herr_Proyecto\WObj:=Workobject_2;
+>        
 >    ENDPROC
+>    
 >    PROC Chupar()
+>    
 >        WaitTime 1;
+>        
 >        SetDO DO_02,0;
+>        
 >        SetDO DO_01,1;
+>        
 >        WaitTime 1;
+>        
 >    ENDPROC
+>    
 >    PROC Soltar()
+>    
 >        SetDO DO_01,0;
+>        
 >        WaitTime 1;
+>        
 >        SetDO DO_02,1;
+>        
 >        WaitTime 1;
+>        
 >    ENDPROC
+>    
 >    ENDMODULE
 ## Proceso de ensamble :wrench:
 
