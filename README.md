@@ -70,7 +70,7 @@ Se realizó un modelo en inventor teniendo en cuenta el diámetro de la ventosa 
 >           CONST robtarget DP6:=[[-194.944133331,98.110637174,-30.74],[0.342020143,0,0,-0.939692621],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
 >           CONST jointtarget Home:=[[0,0,0,0,30,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
 >    
->        PROC Pieza1()>    
+>        PROC Pieza1()
 >           MoveL RP1_2,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
 >           MoveL RP1,v200,z1,Herr_Proyecto\WObj:=Workobject_2;        
 >           Chupar;        
@@ -161,13 +161,16 @@ Se realizó un modelo en inventor teniendo en cuenta el diámetro de la ventosa 
 >        ENDPROC
 >    
 >        PROC Soltar()
->           SetDO DO_01,0;        
->           WaitTime 1;        
+>           WaitTime 1;
+>           SetDO DO_01,0;      
 >           SetDO DO_02,1;        
 >           WaitTime 1; 
 >        ENDPROC
 >    
 >        ENDMODULE
+
+En la primera parte de codigo se puede observar la definicion de los targets a los cuales se desea que la herramienta se mueva durante su recorrido, en el proceso nombrado "pieza1" se realizan los mocimientos corresponidentes a la recogida, desplazamiento y ubicacion dela pieza 1, de sigual forma este proceso se repite en las piezas 2,3,4,5,6. De igual forma se define el path "home" el cual ubica la herramienta en la posicion de home, y los procesos de "chupar" y "soltar" la secuencia de estos consta en ubicar la herramienta, esperar un tiempo, energizar una de las bobinas de la valvula y posteriormente desactivar la otra, de forma tal que en la secuancia "chupar" se genere el vacio y en la secuencia "soltar" se finalice el vacio.
+
 ## Proceso de ensamble :wrench:
 
 ![1](/img/montaje.jpeg)
