@@ -1,5 +1,7 @@
 # ProyectoRobotica 	:robot:
 
+> El video del resultado final del proyecto se encuentra en la siguiente URL: https://www.youtube.com/watch?v=SUE-tXIXvZ0
+
 ### Contenido :open_book:
 
 1. [Descripción de la solución creada](#descripción-de-la-solución-creada-📌)
