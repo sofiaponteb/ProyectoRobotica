@@ -29,6 +29,10 @@ El gripper se fabricó en madera MDF con un proceso de corte láser, se emplearo
 
 ![1](/img/gripper2.jpeg)
 
+A continuación se presenta el plano del gripper diseñado, que a su vez se encuentra en la carpeta ```Inventor```
+
+![1](/img/PlanoGeneral.png)
+
 Se diseñó también una base en madera MDF de 9 mm, la cual contiene dos secciones:
 La sección superior tiene los agujeros donde se insertan los tornillos, es en esta sección donde se ensamblará el gripper. La parte inferior mantiene las piezas desde el inicio del proceso hasta el momento en que son tomadas por el robot. Las dimensiones de esta base son 40x37 cm.
 
