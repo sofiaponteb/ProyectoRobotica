@@ -193,7 +193,7 @@ Para el proceso de energizar y desenegizar las bobinas de la válvula se asignan
 
 En resumen se diseño una secuencia de movimiento por pieza en la cual se incluyen los procesos de activar y desactivar la ventosa, mediante la manipulacion de las salidas digitales del controlador, ademas, se definio el movimiento de ida a home, y por ultimo se realiza la activacion del indicativo de finalizado.
 
-> La totalidad del Codigo generado por RAPID se encuentra en ```Proyecto_V2```.
+> El conjunto de archivos generados por RAPID se encuentra en ```Proyecto_V2```.
 
 ## Proceso de ensamble :wrench:
 
