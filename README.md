@@ -53,7 +53,7 @@ La herramienta se diseñó para ser creada con corte láser en MDF de 6 mm. Se h
 ![1](/img/herramientaPlano.png)
 
 ## Modelo en Robot Studio :mag_right:
-Para desarrollar el modelo en Robotstudio el primer paso fue importar y ubicar en el espacio de trabajo el modelo en CAD de la herramienta y de la base, posterior a esto se realizo la ubicacion de los ```Targets``` en los cuales deseamos que la herramienta se ubique durante su recorrido, habiendo definido los ```Targets``` procedemos a incluirlos en sus respectivos ```Paths``` para este caso creamos un ```Path``` por pieza, por ultimo definimos las salidas y entradas digitales que vamos a manipular para la activacion y desactivacion de la succion, estas las activamos y desactivamos a lo largo de nuestro modelo dependiendo de su respectiva funcionalidad.
+Para desarrollar el modelo en Robotstudio el primer paso fue importar y ubicar en el espacio de trabajo el modelo en CAD de la herramienta y de la base, posterior a esto se realizo la ubicacion de los ```Targets``` en los cuales deseamos que la herramienta se ubique durante su recorrido, habiendo definido los ```Targets``` procedemos a incluirlos en sus respectivos ```Paths``` para este caso creamos un ```Path``` por pieza, posteriormente definimos las salidas y entradas digitales que vamos a manipular para la activacion y desactivacion de la succion, estas las activamos y desactivamos a lo largo de nuestro modelo dependiendo de su respectiva funcionalidad, por ultimo, incluimos los ```Paths``` en ```Main``` en el orden que deseamos que se ejecuten.
 
 ![1](/img/Modelo_Robostudio.JPG)
 ![1](/img/Simulacion2.gif)
